@@ -1,0 +1,10 @@
+version='2.2'
+author='OpenHUTB'
+packages=['carla','airsim']
+description='Python API for communicating with the HUTB simulator.'
+url='https://github.com/OpenHUTB/hutb'
+author_email='whd@hutb.edu.cn'
+include_package_data=True
+install_requires=[
+      'msgpack-rpc-python','numpy','opencv-contrib-python'
+]
